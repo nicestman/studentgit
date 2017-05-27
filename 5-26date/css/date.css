@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+#date{
+	width: 440PX;
+	height: 628px;
+	background-color: #272c3d;
+	padding: 26px 38px 26px 26px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 10px auto;
+}
+#date .showTime p:nth-of-type(1){
+	color: #fff;
+	font-size: 30px;
+	line-height: 62px;
+}
+#date .showTime p:nth-of-type(2){
+	color: #4e8fff;
+	font-size: 14px;
+	line-height: 42px;
+}
+#date .setMonth{
+	color: #fff;
+	font-size: 14px;
+	line-height: 31px;
+}
+#date .setMonth:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#date .setMonth p:nth-of-type(1){
+	float: left;
+}
+#date .setMonth p:nth-of-type(2){
+	float: right;
+	cursor: pointer;
+}
+#date .setMonth p:nth-of-type(2) span{
+	margin: 0px 10px;
+}
+#date .newDate{
+	color: #fff;
+	font-size: 14px;
+}
+#date .newDate ul li{
+	width: 50px;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+}
+#date .newDate .day{
+	width: 100%;
+	height: 62px;
+}
+#date .newDate .showDate{
+	width: 100%;
+	height: 372px;
+}
+#date .newDate .showDate ul li{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#date .newDate .showDate ul li.otherMon{
+	color: #777;
+}
+#date .newDate .showDate ul li.selected,#date .newDate .showDate ul li:hover{
+	color: #fff;
+	background-color: #f60;
+	border: 1px solid;
+}
